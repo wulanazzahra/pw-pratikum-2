@@ -1,0 +1,52 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "title header sidebar"
+    "content content content";
+}
+
+body {
+    background-color: #FAEFCA;
+  }
+img {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    
+span {
+        vertical-align:middle;
+    }
+
+
+.header{
+    margin-left: 25%;
+}
+
+.sidebar{
+    margin-left: 75%;
+}
+
+
+
+.content {
+    grid-column: 1 / 4;
+}
+
+h1{
+    color:#404D4C;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  }
